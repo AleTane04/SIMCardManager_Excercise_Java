@@ -13,6 +13,6 @@ public class PlainSimCard implements SimCard
     @Override
     public double getPrice()
     {
-        return 9.99;
+        return 4.99;
     }
 }
