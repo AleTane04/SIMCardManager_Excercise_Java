@@ -7,7 +7,7 @@ public class PlainSimCard implements SimCard
     @Override
     public String getOfferDescription()
     {
-        return "Questa SIM è vuota, il cliente può attivare l'offerta in App.";
+        return "Questa è una scheda SIM";
     }
 
     @Override
