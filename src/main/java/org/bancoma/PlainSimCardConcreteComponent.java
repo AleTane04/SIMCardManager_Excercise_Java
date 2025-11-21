@@ -2,7 +2,7 @@ package org.bancoma;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class PlainSimCard implements SimCard
+public class PlainSimCardConcreteComponent implements SimCardComponent
 {
     @Override
     public String getOfferDescription()

@@ -1,8 +1,8 @@
 package org.bancoma;
 
-public class GigaMusicXL extends SimCardDecorator
+public class GigaMusicXLConcreteDecorator extends SimCardDecorator
 {
-    public GigaMusicXL(SimCard simcard)
+    public GigaMusicXLConcreteDecorator(SimCard simcard)
     {
         super(simcard);
     }

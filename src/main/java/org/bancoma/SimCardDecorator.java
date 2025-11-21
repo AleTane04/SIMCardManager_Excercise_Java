@@ -1,8 +1,8 @@
 package org.bancoma;
 
-public abstract class SimCardDecorator implements SimCard
+public abstract class SimCardDecorator implements SimCardComponent
 {
-    protected SimCard simcard;
+    protected SimCardDecorator simcard;
 
     public SimCardDecorator(SimCard simcard)
     {
