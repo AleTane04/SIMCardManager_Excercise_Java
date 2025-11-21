@@ -2,23 +2,23 @@ package org.bancoma;
 
 public abstract class SimCardDecorator implements SimCardComponent
 {
-    protected SimCardComponent simcard;
+    protected SimCardComponent simCard;
 
-    public SimCardDecorator(SimCardComponent simcard)
+    public SimCardDecorator(SimCardComponent simCard)
     {
-        this.simcard = simcard;
+        this.simCard = simCard;
     }
 
     @Override
     public String getOfferDescription()
     {
-        return simcard.getOfferDescription();
+        return simCard.getOfferDescription();
     }
 
     @Override
     public double getPrice()
     {
-        return simcard.getPrice();
+        return simCard.getPrice();
     }
 
 }

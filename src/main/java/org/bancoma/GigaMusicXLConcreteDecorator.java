@@ -2,22 +2,20 @@ package org.bancoma;
 
 public class GigaMusicXLConcreteDecorator extends SimCardDecorator
 {
-    protected SimCardComponent simcard;
-
-    public GigaMusicXLConcreteDecorator(SimCardComponent simcard)
+    public GigaMusicXLConcreteDecorator(SimCardComponent simCard)
     {
-        super(simcard);
+        super(simCard);
     }
 
     @Override
     public String getOfferDescription()
     {
-        return simcard.getOfferDescription() + "\nQuesta offerta prevede 200GB in 5G e Apple Music al costo di 6.99 euro al mese.";
+        return simCard.getOfferDescription() + "\n GIGA MUSIC XL ATTIVA. Questa offerta prevede 200GB in 5G e Apple Music al costo di 6.99 euro al mese.";
     }
 
     @Override
     public double getPrice()
     {
-        return simcard.getPrice() + 2.00;
+        return simCard.getPrice() + 2.00;
     }
 }
