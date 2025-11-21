@@ -7,6 +7,6 @@ package org.bancoma;
 
 public interface SimCardComponent
 {
-    String getOfferDescriptio();
+    String getOfferDescription();
     double getPrice();
 }

@@ -2,7 +2,9 @@ package org.bancoma;
 
 public class GigaMusicXLConcreteDecorator extends SimCardDecorator
 {
-    public GigaMusicXLConcreteDecorator(SimCard simcard)
+    protected SimCardComponent simcard;
+
+    public GigaMusicXLConcreteDecorator(SimCardComponent simcard)
     {
         super(simcard);
     }
@@ -14,8 +16,8 @@ public class GigaMusicXLConcreteDecorator extends SimCardDecorator
     }
 
     @Override
-    public int getCost()
+    public double getPrice()
     {
-        return simcard.getCost() + 2.00;
+        return simcard.getPrice() + 2.00;
     }
 }
